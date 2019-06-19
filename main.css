@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reset end*/
+
+
+
+
+
+
+nav {
+    background-color: #24292E;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+
+nav ul {
+    display: inline-block;
+}
+
+.leftNav {
+    padding: 20px 20px 20px 50px;
+
+}
+
+.rightNav {
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.rightNav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.leftNav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.ulWhyGithub li {
+    display: none;
+}
+
+.whyGithub:hover .ulWhyGithub li {
+    display: block;
+}
+
+.whyGithub:hover .ulWhyGithub {
+    background-color: red;
+}
+
+.ulWhyGithub li a:hover {
+    color: blue;
+}
+
+.ulExplore li{
+    display: none;
+}
+
+.explore:hover .ulExplore li {
+    display: block;
+}
+
+.explore:hover .ulExplore {
+    background-color: red;
+}
+
+.ulExplore li a:hover {
+    color: blue;
+}
+
+.ulPricing li {
+    display: none;
+}
+
+.pricing:hover .ulPricing li {
+    display: block;
+}
+
+.ulPricing li a:hover {
+    color: blue;
+}
+
+.pricing:hover .ulPricing {
+    background-color: red;
+}
+
+.searchGithubInput {
+    padding: 10px 50px 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3F4448;
+}
+
+.signUp {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.signUp:hover {
+    border: 1px solid #627C8D;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+li:hover a {
+    color: #627C8D;
+}
+
+.fas {
+    color: #3F4448;
+    font-size: .80em;
+    margin-left: 5px;
+}
