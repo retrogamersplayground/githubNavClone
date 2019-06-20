@@ -99,7 +99,14 @@ nav ul {
 }
 
 .whyGithub:hover .ulWhyGithub {
-    background-color: red;
+    background-color: #ffffff;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    line-height: 1.5;
+    transform: translate(-50px, 20px);
+    position: absolute;
 }
 
 .ulWhyGithub li a:hover {
@@ -115,7 +122,14 @@ nav ul {
 }
 
 .explore:hover .ulExplore {
-    background-color: red;
+    background-color: #ffffff;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    line-height: 1.5;
+    transform: translate(-50px, 20px);
+    position: absolute;
 }
 
 .ulExplore li a:hover {
@@ -135,7 +149,14 @@ nav ul {
 }
 
 .pricing:hover .ulPricing {
-    background-color: red;
+    background-color: #ffffff;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    line-height: 1.5;
+    transform: translate(-50px, 20px);
+    position: absolute;
 }
 
 .searchGithubInput {
@@ -169,4 +190,13 @@ li:hover a {
     color: #3F4448;
     font-size: .80em;
     margin-left: 5px;
+}
+
+body {
+    background-image: url("assets/gitBackground.jpg");
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
 }
