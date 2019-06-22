@@ -72,7 +72,6 @@ nav ul {
 
 .leftNav {
     padding: 20px 20px 20px 50px;
-
 }
 
 .rightNav {
@@ -98,6 +97,10 @@ nav ul {
     display: block;
 }
 
+.whyGithub .ulWhyGithub {
+    opacity: .0;
+}
+
 .whyGithub:hover .ulWhyGithub {
     background-color: #ffffff;
     padding-right: 100px;
@@ -107,6 +110,8 @@ nav ul {
     line-height: 1.5;
     transform: translate(-50px, 20px);
     position: absolute;
+    opacity: 1;
+    transition: opacity .75s ease-in;
 }
 
 .ulWhyGithub li a:hover {
@@ -121,6 +126,10 @@ nav ul {
     display: block;
 }
 
+.explore .ulExplore {
+    opacity: .0;
+}
+
 .explore:hover .ulExplore {
     background-color: #ffffff;
     padding-right: 100px;
@@ -130,6 +139,8 @@ nav ul {
     line-height: 1.5;
     transform: translate(-50px, 20px);
     position: absolute;
+    opacity: 1;
+    transition: opacity .75s ease-in;
 }
 
 .ulExplore li a:hover {
@@ -148,6 +159,10 @@ nav ul {
     color: blue;
 }
 
+.pricing .ulPricing {
+    opacity: .0;
+}
+
 .pricing:hover .ulPricing {
     background-color: #ffffff;
     padding-right: 100px;
@@ -157,6 +172,8 @@ nav ul {
     line-height: 1.5;
     transform: translate(-50px, 20px);
     position: absolute;
+    opacity: 1;
+    transition: opacity .75s ease-in;
 }
 
 .searchGithubInput {
@@ -200,3 +217,116 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+.rightNav .hamburger {
+    display: none;
+}
+
+.sideNav {
+    display: none;
+    width: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+}
+
+.sideNav li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.sideNav a {
+    color: #3F4448;
+    margin-left: 10px;
+}
+
+.sideNav li ul {
+    display: none;
+}
+
+.signIn2 {
+    display: inline-block;
+    border-bottom: none !important;
+}
+
+.signUp2 {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+.sideNav li .fas {
+    float: right;
+    margin-right: 10px;
+}
+
+.sideNav li form input {
+
+}
+
+/* 1011px mobile layout breakpoint*/
+
+@media only screen and (max-width: 1300px) {
+    .leftNav .whyGithub {
+        display: none;
+    }
+
+    .leftNav .enterprise {
+        display: none;
+    }
+
+    .leftNav .explore {
+        display: none;
+    }
+
+    .leftNav .marketplace {
+        display: none;
+    }
+
+    .leftNav .pricing {
+        display: none;
+    }
+
+    .rightNav .searchGithub {
+        display: none;
+    }
+
+    .rightNav .signIn {
+        display: none;
+    }
+
+    .rightNav {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .rightNav .hamburger {
+        display: inline-block;
+        color: #ffffff;
+        font-size: 2em;
+        vertical-align: middle;
+    }
+
+    .rightNav .x {
+        display: none;
+        color: #ffffff;
+        font-size: 2.5em;
+        vertical-align: middle;
+    }
+
+  }
+
+  @media only screen and (max-width: 420px) {
+      .leftNav li {
+          margin-left: 0px;
+          padding-left: 0px;
+      }
+
+      .rightNav {
+          margin-left: 0px;
+          padding-left: 0px;
+      }
+  }
