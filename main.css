@@ -228,17 +228,22 @@ hr {
     background-color: #ffffff;
     position: absolute;
     top: 0px;
+    right: 0;
+    height: 100%;
 }
 
 .sideNav li {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
     border-bottom: 1px solid gray;
 }
 
 .sideNav a {
     color: #3F4448;
-    margin-left: 10px;
+
 }
 
 .sideNav li ul {
@@ -258,13 +263,21 @@ hr {
 }
 
 
-.sideNav li .fas {
+.x {
     float: right;
-    margin-right: 10px;
+    border-bottom: none !important;
+}
+
+.fas {
+    float: right;
+}
+
+.clear {
+    clear: right;
 }
 
 .sideNav li form input {
-
+    padding: 10px;
 }
 
 /* 1011px mobile layout breakpoint*/
@@ -310,7 +323,7 @@ hr {
         vertical-align: middle;
     }
 
-    .rightNav .x {
+    .sideNav .x {
         display: none;
         color: #ffffff;
         font-size: 2.5em;
